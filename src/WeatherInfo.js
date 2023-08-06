@@ -6,17 +6,11 @@ import TemperatureUnits from "./TemperatureUnits";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
+      <h1>{props.data.city}</h1>
       <div className="row">
-        <div className="col-9">
-          <h1>{props.data.city}</h1>
-          <ul>
-            <li>
-              <CurrentDate date={props.data.date} />
-            </li>
-          </ul>
-        </div>
-        <div className="col">
-          <div className="currentTemperature-container ">
+        <CurrentDate date={props.data.date} />
+        <div className="col-sm">
+          <div className="currentTemperature">
             <ul>
               <li>
                 <TemperatureUnits fahrenheit={props.data.temperature} />
@@ -31,8 +25,6 @@ export default function WeatherInfo(props) {
             </ul>
           </div>
         </div>
-      </div>
-      <div className="col-sm">
         <div className="col-sm">
           <div className="data">
             <ul>

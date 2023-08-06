@@ -3,3 +3,12 @@
   margin: 10px 0;
   margin-top: -20px;
 }
+.Footer a{
+  color: #30307f;
+  text-decoration: none;
+}
+.Footer a:hover{
+  color: #ffffff;
+  font-size: 14px;
+text-decoration: underline;
+}

@@ -27,11 +27,11 @@ export default function CurrentDate(props) {
         <ul>
           <li>
             Today is {day}
-            and the
+            
           </li>
-
+The current local
           <li>
-            current local time is: {hours}:{minutes}
+          time is {hours}:{minutes}
           </li>
         </ul>
       </div>
