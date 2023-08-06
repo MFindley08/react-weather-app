@@ -1,0 +1,12 @@
+.Header img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+@media (max-width: 900px) {
+  .Header img {
+    display: block;
+    margin-top: -50px;
+  }
+}
