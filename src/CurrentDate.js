@@ -25,7 +25,10 @@ export default function CurrentDate(props) {
     <div className="col-sm">
       <div className="date">
         <ul>
-          <li>To day is {day} and the</li>
+          <li>
+            Today is {day}
+            and the
+          </li>
 
           <li>
             current local time is: {hours}:{minutes}

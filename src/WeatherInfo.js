@@ -11,21 +11,18 @@ export default function WeatherInfo(props) {
           <h1>{props.data.city}</h1>
           <ul>
             <li>
-              Today is
-              <CurrentDate date={props.data.date} /> and the
+              <CurrentDate date={props.data.date} />
             </li>
           </ul>
         </div>
         <div className="col">
           <div className="currentTemperature-container ">
             <ul>
-              <div className="large-icon">
-                <li>
-                  <WeatherIcon code={props.data.icon} size={52} />
-                </li>
-              </div>
               <li>
                 <TemperatureUnits fahrenheit={props.data.temperature} />
+              </li>
+              <li>
+                <WeatherIcon code={props.data.icon} size={52} />
               </li>
 
               <li className="description text-capitalize">

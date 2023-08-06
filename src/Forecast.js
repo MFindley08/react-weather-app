@@ -9,7 +9,7 @@ export default function Forecast(props) {
 
   useEffect(() => {
     if (props.coordinates) {
-      let apiKey = "f3009e4852fa0a079dab291dabf020c4";
+      let apiKey = "445905dadb3d2b0c6f1b916c9d0e3860";
       let latitude = props.coordinates.lat;
       let longitude = props.coordinates.lon;
       let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`;
