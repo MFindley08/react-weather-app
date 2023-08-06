@@ -1,15 +1,14 @@
 .Footer {
   font-size: 12px;
   margin: 10px 0;
-  
 }
-.Footer a{
+.Footer a {
   color: #30307f;
   text-decoration: none;
 }
-.Footer a:hover{
-  color:blue;
+.Footer a:hover {
+  color: blue;
   font-size: 14px;
   font-weight: bold;
-text-decoration: underline;
+  text-decoration: underline;
 }
