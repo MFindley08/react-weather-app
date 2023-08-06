@@ -23,7 +23,7 @@ export default function Footer() {
         </a>{" "}
         and hosted on{" "}
         <a
-          href="https://in-the-air-5-weather-app.netlify.app/"
+          href="https://in-the-air-5-day-forecast-react-app.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
