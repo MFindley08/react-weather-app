@@ -6,13 +6,13 @@
 }
 body {
   background: #def2f6;
+  
 }
 .App {
   max-width: 600px;
   margin: 0 auto;
   margin-top: -40px;
   text-align: center;
-  padding: 0 auto;
   overflow-x: hidden;
   overflow-y: hidden;
 }
