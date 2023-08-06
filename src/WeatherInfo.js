@@ -5,7 +5,7 @@ import TemperatureUnits from "./TemperatureUnits";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="WeatherInfo-container">
       <h1>{props.data.city}</h1>
       <div className="row">
         <CurrentDate date={props.data.date} />
